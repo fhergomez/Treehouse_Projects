@@ -13,6 +13,9 @@ layout: default
             <b class="post__sep">&#x25cf;</b>
             <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
           </div>
+
+          {{ post.excerpt }}
+
           <a class="btn--default" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         </li>
       {% endfor %}
