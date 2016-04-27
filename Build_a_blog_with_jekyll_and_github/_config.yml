@@ -8,3 +8,20 @@ twitter_username: fhergomez70
 # Build settings
 markdown: kramdown
 permalink: /:title
+
+# Default settings
+defaults:
+    -
+      scope:
+        path: "" # an empty string here means all files in the project
+        type: "posts" # previously "post" in jekyll 2.2.
+      values:
+        author: Fernando Gomez
+        layout: "post"
+        category: conferences
+    -
+      scope:
+        path: "" # an empty string here means all files in the project
+        type: "pages" # previously "post" in jekyll 2.2.
+      values:
+        layout: "page"

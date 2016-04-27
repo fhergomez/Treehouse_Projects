@@ -1,9 +1,6 @@
 ---
-layout: post
 title:  "Amazon Web Dev Conference"
 date:   2016-04-24 15:25:36
-categories: conferences
-author: Fernando Gomez
 permalink: amazon-web-dev
 image: camp-sass.jpg
 ---
