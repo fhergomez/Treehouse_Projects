@@ -22,6 +22,7 @@ defaults:
         author: Fernando Gomez
         layout: "post"
         category: conferences
+        comments: true
     -
       scope:
         path: "" # an empty string here means all files in the project
