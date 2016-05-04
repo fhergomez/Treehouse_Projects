@@ -17,6 +17,14 @@ paginate_path: "page:num"
  gems:
    - jekyll-coffeescript
    - jekyll-paginate
+   - jekyll-mentions
+   - jemoji
+   - jekyll-redirect-from
+   - jekyll-sitemap
+   - jekyll-feed
+   - jekyll-watch
+   - jekyll-assets
+   - rake
 permalink: /:title
 
 # Default settings
@@ -36,3 +44,11 @@ defaults:
         type: "pages" # previously "post" in jekyll 2.2.
       values:
         layout: "page"
+    -
+      scope:
+        path: "" # an empty string here means all files in the project
+        type: "drafts" # previously `post` in Jekyll 2.2.
+      values:
+        author: Jonnie
+        category: conferences
+        layout: "post"
