@@ -9,7 +9,14 @@ paginate: 3
 paginate_path: "page:num"
 
 # Build settings
-markdown: kramdown
+ github: [metadata]
+ markdown: kramdown
+ kramdown:
+   input: GFM
+   hard_wrap: false
+ gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
 permalink: /:title
 
 # Default settings
