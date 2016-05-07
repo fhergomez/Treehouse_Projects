@@ -10,21 +10,21 @@ paginate_path: "page:num"
 
 # Build settings
  github: [metadata]
- markdown: kramdown
- kramdown:
-   input: GFM
-   hard_wrap: false
- gems:
-   - jekyll-coffeescript
-   - jekyll-paginate
-   - jekyll-mentions
-   - jemoji
-   - jekyll-redirect-from
-   - jekyll-sitemap
-   - jekyll-feed
-   - jekyll-watch
-   - jekyll-assets
-   - rake
+ # markdown: kramdown
+ # kramdown:
+ #   input: GFM
+ #   hard_wrap: false
+ # gems:
+ #   - jekyll-coffeescript
+ #   - jekyll-paginate
+ #   - jekyll-mentions
+ #   - jemoji
+ #   - jekyll-redirect-from
+ #   - jekyll-sitemap
+ #   - jekyll-feed
+ #   - jekyll-watch
+ #   - jekyll-assets
+ #   - rake
 permalink: /:title
 
 # Default settings
